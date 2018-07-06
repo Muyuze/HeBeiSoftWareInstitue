@@ -1,0 +1,25 @@
+class Human{
+    public void eat(){ 
+System.out.println("ºÃ³Ô!")
+}}
+
+class GrandFather extends Human{}
+class GrandMother extends Human{}
+class Father      extends Human{}
+class Mother      extends Human{}
+class Sister      extends Human{}
+class IM          extends Human{}
+
+
+public class FamliyDinnerI{
+public static void main(String arg[])
+                GrandFather gf = new GrandFather();  GrandMother gm = new  GrandMother();
+                     Father fa = new Father();            Mother mo = new Mother();
+                     Sister si = new Sister();                IM im = new IM();
+                                 gf.eat();
+                                 gm.eat();
+                                 fa.eat();
+                                 mo.eat();
+                                 si.eat();
+                                 im.eat()
+}

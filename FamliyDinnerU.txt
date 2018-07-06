@@ -1,0 +1,36 @@
+class GrandFather{
+    public void eat(){ 
+System.out.println("好吃!")
+}}
+class GrandMother{
+    public void eat(){ 
+System.out.println("好吃!")
+}}
+class Father{
+    public void eat(){ 
+System.out.println("好吃!")
+}}
+class Mother{
+    public void eat(){ 
+System.out.println("好吃!")
+}}
+class IM{
+    public void eat(){ 
+System.out.println("好吃!")
+}}
+class Sister{
+    public void eat(){ 
+System.out.println("好吃!")
+}}
+public class FamliyDinner{
+public static void main(String arg[])
+                GrandFather gf = new GrandFather();  GrandMother gm = new  GrandMother();
+                Father fa = new Father();                           Mother mo = new Mother();
+                Sister si = new Sister();                               IM im = new IM();
+                                 gf.eat();
+                                 gm.eat();
+                                 fa.eat();
+                                 mo.eat();
+                                 si.eat();
+                                 im.eat()
+}
